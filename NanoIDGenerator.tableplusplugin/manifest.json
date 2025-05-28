@@ -19,6 +19,13 @@
         },
         {
             "location": "data",
+            "type": "action",
+            "script": "nanoIdGenerator.js",
+            "handler": "nanoid",
+            "name": "Generate NanoID"
+        },
+        {
+            "location": "data",
             "name": "Generate UUID With",
             "type": "submenu",
             "children": [

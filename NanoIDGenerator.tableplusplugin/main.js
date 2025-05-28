@@ -1,3 +1,4 @@
+import { customAlphabet } from 'nanoid/non-secure'
 import { getUUID } from './library/helper'
 
 var setContent = function (context, uuid) {
@@ -53,7 +54,18 @@ var v4nohyphens = function (context) {
     setContent(context, uuid)
 }
 
+var nanoid = function (context) {
+    let customGenerator = customAlphabet(
+        '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ',
+        6
+    )
+
+    let nanoid = customGenerator()
+    setContent(context, nanoid)
+}
+
 global.v1 = v1
 global.v4 = v4
 global.v1nohyphens = v1nohyphens
 global.v4nohyphens = v4nohyphens
+global.nanoid = nanoid
