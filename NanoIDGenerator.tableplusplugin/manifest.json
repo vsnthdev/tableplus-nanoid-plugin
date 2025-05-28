@@ -1,0 +1,55 @@
+{
+    "name": "NanoID Generator",
+    "identifier": "dev.vsnth.NanoIDGenerator",
+    "version": "0.0.0",
+    "detail": "Generate NanoIDs on selected cells through context menu",
+    "author": "Vasanth Srivatsa",
+    "authorEmail": "hey@vsnth.dev",
+    "scripts": [
+        {
+            "location": "data",
+            "type": "separator"
+        },
+        {
+            "location": "data",
+            "type": "action",
+            "script": "nanoIdGenerator.js",
+            "handler": "v1",
+            "name": "Generate UUID V1"
+        },
+        {
+            "location": "data",
+            "name": "Generate UUID With",
+            "type": "submenu",
+            "children": [
+                {
+                    "type": "action",
+                    "script": "nanoIdGenerator.js",
+                    "handler": "v1",
+                    "name": "UUID V1"
+                },
+                {
+                    "type": "action",
+                    "script": "nanoIdGenerator.js",
+                    "handler": "v4",
+                    "name": "UUID V4"
+                },
+                {
+                    "type": "separator"
+                },
+                {
+                    "type": "action",
+                    "script": "nanoIdGenerator.js",
+                    "handler": "v1nohyphens",
+                    "name": "UUID V1 without hyphens"
+                },
+                {
+                    "type": "action",
+                    "script": "nanoIdGenerator.js",
+                    "handler": "v4nohyphens",
+                    "name": "UUID V4 without hyphens"
+                }
+            ]
+        }
+    ]
+}

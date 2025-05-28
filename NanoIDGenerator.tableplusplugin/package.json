@@ -1,0 +1,24 @@
+{
+    "name": "dev.vsnth.NanoIDGenerator",
+    "version": "0.0.0",
+    "description": "Generate NanoIDs on selected cells through context menu",
+    "main": "main.js",
+    "license": "UNLICENSED",
+    "dependencies": {
+        "uuid": "3.4.0",
+        "webpack": "5.79.0"
+    },
+    "devDependencies": {
+        "babel-loader": "9.1.2",
+        "webpack": "5.79.0",
+        "webpack-cli": "5.0.1"
+    },
+    "scripts": {
+        "build": "webpack"
+    },
+    "author": {
+        "name": "Vasanth Srivatsa",
+        "email": "hey@vsnth.dev",
+        "url": "https://vsnth.dev"
+    }
+}
