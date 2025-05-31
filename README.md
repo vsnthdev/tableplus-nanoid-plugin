@@ -1,6 +1,6 @@
 ![Image](https://github.com/user-attachments/assets/dfb4d474-10ad-4e95-82b9-6ce37e669fb8)
 
-<p align="center">Generate NanoIDs on selected cells through context menu in TablePlus.</p>
+<p align="center"><strong>Generate NanoIDs on selected cells through context menu in TablePlus.</strong></p>
 <p align="center">
     <a href="https://github.com/vsnthdev/tableplus-nanoid-plugin/issues">
         <img src="https://img.shields.io/github/issues/vsnthdev/tableplus-nanoid-plugin.svg?style=flat-square" alt="issues">
@@ -18,10 +18,10 @@
 
 
 ## 📰 License
-> The **rupa** project is released under the [MIT license](https://github.com/vsnthdev/rupa/blob/main/LICENSE.md). <br> Developed &amp; maintained By Vasanth Srivatsa. Copyright 2023 © Vasanth Developer.
+> The **tableplus-nanoid-plugin** project is released under the [zlib/libpng License](https://github.com/vsnthdev/tableplus-nanoid-plugin/blob/main/LICENSE.md). <br> Made with 💖 by Vasanth Srivatsa.
 <hr>
 
 > <a href="https://vsnth.dev" target="_blank" rel="noopener">vsnth.dev</a> &nbsp;&middot;&nbsp;
 > YouTube <a href="https://vas.cx/videos" target="_blank" rel="noopener">@vsnthdev</a> &nbsp;&middot;&nbsp;
 > Twitter <a href="https://vas.cx/twitter" target="_blank" rel="noopener">@vsnthdev</a> &nbsp;&middot;&nbsp;
-> Discord <a href="https://vas.cx/discord" target="_blank" rel="noopener">Vasanth Developer</a>
+> LinkedIn <a href="https://vas.cx/linkedin" target="_blank" rel="noopener">@vsnthdev</a>

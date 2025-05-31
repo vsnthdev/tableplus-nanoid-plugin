@@ -3,7 +3,7 @@
     "version": "0.0.0",
     "description": "Generate NanoIDs on selected cells through context menu in TablePlus.",
     "main": "main.js",
-    "license": "UNLICENSED",
+    "license": "Zlib",
     "dependencies": {
         "nanoid": "^5.1.5",
         "webpack": "5.79.0"
