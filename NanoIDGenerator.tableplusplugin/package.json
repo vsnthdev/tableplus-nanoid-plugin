@@ -15,7 +15,7 @@
     },
     "scripts": {
         "build": "webpack",
-        "clean": "rimraf ../dist",
+        "clean": "rimraf ../dist nanoIdGenerator.js",
         "zip": "mkdir -p temp_structure/NanoIDGenerator.tableplusplugin ../dist && cp ../README.md temp_structure/ && cp package.json nanoIdGenerator.js manifest.json temp_structure/NanoIDGenerator.tableplusplugin/ && cp ../LICENSE.md temp_structure/NanoIDGenerator.tableplusplugin/ && cd ./temp_structure && zip -r ../../dist/tableplus-nanoid-plugin.zip ./* && cd .. && rm -rf ./temp_structure",
         "pack": "bun run clean && bun run build && bun run zip"
     },
