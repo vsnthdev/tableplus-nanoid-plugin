@@ -1,7 +1,7 @@
 {
     "name": "NanoID Generator",
     "identifier": "dev.vsnth.NanoIDGenerator",
-    "version": "0.0.0",
+    "version": "1.0.0",
     "detail": "Generate NanoIDs on selected cells through context menu in TablePlus.",
     "author": "Vasanth Srivatsa",
     "authorEmail": "hey@vsnth.dev",

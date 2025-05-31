@@ -5,7 +5,6 @@
       "name": "dev.vsnth.NanoIDGenerator",
       "dependencies": {
         "nanoid": "^5.1.5",
-        "webpack": "5.79.0",
       },
       "devDependencies": {
         "babel-loader": "9.1.2",
