@@ -1,7 +1,7 @@
 {
     "name": "dev.vsnth.NanoIDGenerator",
     "version": "0.0.0",
-    "description": "Generate NanoIDs on selected cells through context menu",
+    "description": "Generate NanoIDs on selected cells through context menu in TablePlus.",
     "main": "main.js",
     "license": "UNLICENSED",
     "dependencies": {
