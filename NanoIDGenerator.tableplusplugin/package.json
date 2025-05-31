@@ -10,11 +10,15 @@
     },
     "devDependencies": {
         "babel-loader": "9.1.2",
+        "rimraf": "^6.0.1",
         "webpack": "5.79.0",
         "webpack-cli": "5.0.1"
     },
     "scripts": {
-        "build": "webpack"
+        "build": "webpack",
+        "clean": "rimraf ../dist",
+        "zip": "mkdir -p temp_structure/NanoIDGenerator.tableplusplugin ../dist && cp ../README.md temp_structure/ && cp package.json nanoIdGenerator.js manifest.json temp_structure/NanoIDGenerator.tableplusplugin/ && cp ../LICENSE.md temp_structure/NanoIDGenerator.tableplusplugin/ && cd ./temp_structure && zip -r ../../dist/tableplus-nanoid-plugin.zip ./* && cd .. && rm -rf ./temp_structure",
+        "pack": "pnpm run clean && pnpm run build && pnpm run zip"
     },
     "author": {
         "name": "Vasanth Srivatsa",
