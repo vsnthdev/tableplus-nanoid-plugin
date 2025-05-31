@@ -6,7 +6,6 @@
     "license": "UNLICENSED",
     "dependencies": {
         "nanoid": "^5.1.5",
-        "uuid": "3.4.0",
         "webpack": "5.79.0"
     },
     "devDependencies": {

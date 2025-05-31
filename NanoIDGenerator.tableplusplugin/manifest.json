@@ -14,49 +14,8 @@
             "location": "data",
             "type": "action",
             "script": "nanoIdGenerator.js",
-            "handler": "v1",
-            "name": "Generate UUID V1"
-        },
-        {
-            "location": "data",
-            "type": "action",
-            "script": "nanoIdGenerator.js",
             "handler": "nanoid",
             "name": "Generate NanoID"
-        },
-        {
-            "location": "data",
-            "name": "Generate UUID With",
-            "type": "submenu",
-            "children": [
-                {
-                    "type": "action",
-                    "script": "nanoIdGenerator.js",
-                    "handler": "v1",
-                    "name": "UUID V1"
-                },
-                {
-                    "type": "action",
-                    "script": "nanoIdGenerator.js",
-                    "handler": "v4",
-                    "name": "UUID V4"
-                },
-                {
-                    "type": "separator"
-                },
-                {
-                    "type": "action",
-                    "script": "nanoIdGenerator.js",
-                    "handler": "v1nohyphens",
-                    "name": "UUID V1 without hyphens"
-                },
-                {
-                    "type": "action",
-                    "script": "nanoIdGenerator.js",
-                    "handler": "v4nohyphens",
-                    "name": "UUID V4 without hyphens"
-                }
-            ]
         }
     ]
 }
