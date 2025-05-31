@@ -31,8 +31,9 @@ Download [release](https://github.com/vsnthdev/tableplus-nanoid-plugin/releases)
 ```
 git clone https://github.com/vsnthdev/tableplus-nanoid-plugin.git
 cd tableplus-nanoid-plugin/NanoIDGenerator.tableplusplugin
-pnpm install
-pnpm run build
+bun install
+bun run build
+bun run pack
 code .
 ```
 

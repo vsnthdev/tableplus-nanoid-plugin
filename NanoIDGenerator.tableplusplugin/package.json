@@ -5,8 +5,7 @@
     "main": "main.js",
     "license": "Zlib",
     "dependencies": {
-        "nanoid": "^5.1.5",
-        "webpack": "5.79.0"
+        "nanoid": "^5.1.5"
     },
     "devDependencies": {
         "babel-loader": "9.1.2",
@@ -18,7 +17,7 @@
         "build": "webpack",
         "clean": "rimraf ../dist",
         "zip": "mkdir -p temp_structure/NanoIDGenerator.tableplusplugin ../dist && cp ../README.md temp_structure/ && cp package.json nanoIdGenerator.js manifest.json temp_structure/NanoIDGenerator.tableplusplugin/ && cp ../LICENSE.md temp_structure/NanoIDGenerator.tableplusplugin/ && cd ./temp_structure && zip -r ../../dist/tableplus-nanoid-plugin.zip ./* && cd .. && rm -rf ./temp_structure",
-        "pack": "pnpm run clean && pnpm run build && pnpm run zip"
+        "pack": "bun run clean && bun run build && bun run zip"
     },
     "author": {
         "name": "Vasanth Srivatsa",
